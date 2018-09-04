@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  # neo4j
+  neo4j:
+    image: neo4j:latest
+    ports:
+      - "17474:7474"
+      - "17687:7687"
+
+ 
